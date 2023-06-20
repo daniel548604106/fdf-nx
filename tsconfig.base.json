@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/products": ["libs/products/src/index.ts"],
-      "@org/ui": ["libs/ui/src/index.ts"]
+      "@fdf/ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

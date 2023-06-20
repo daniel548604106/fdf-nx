@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-
+import { Button } from '@fdf/ui';
 import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
@@ -26,6 +26,7 @@ export function App() {
           </li>
         </ul>
       </div>
+      <Button />
       <Routes>
         <Route
           path="/"
