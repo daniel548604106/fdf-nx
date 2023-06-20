@@ -14,7 +14,7 @@ jobs:
       - run:
           command: npx nx-cloud start-agent
           no_output_timeout: 60m
-  main:
+  nx-cloud:
     docker:
       - image: cimg/node:lts-browsers
     steps:
@@ -31,4 +31,4 @@ workflows:
           matrix:
             parameters:
               ordinal: [admin, store]
-      - master
+      - nx-cloud
