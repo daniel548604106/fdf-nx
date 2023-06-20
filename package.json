@@ -11,7 +11,7 @@
     "build:admin": "nx build admin --prod",
     "build:apps": "nx run-many -t build lint test -p admin store",
     "test:apps": "nx run-many -p admin store",
-    "storybook:ui": "nx run ui:storybook",
+    "storybook:shared/ui": "nx run ui:storybook",
     "check-affected": "nx affected -t test"
   },
   "private": true,
